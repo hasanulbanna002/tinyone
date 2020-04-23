@@ -68,6 +68,8 @@ header{
 
 /*features start*/
 .features{
+	padding-top: 80px;
+	padding-bottom: 100px;
 }
 .title{}
 .t_h1{
@@ -82,4 +84,101 @@ header{
     word-spacing: 1px;
     line-height: 26px;
 }
+.m_t_60{
+	margin-top: 60px;
+}
+.f_icon{
+	font-size: 50px;
+	color: #010101;
+	transition: .5s;
+}
+.f_icon:hover{
+	transform: rotateY(180deg);
+}
+.f_text{
+	margin-top: 10px;
+}
+.f_text h2{
+	font-size: 22px;
+	color: #010101;
+}
+.f_text p{
+	letter-spacing: 1px;
+    color: #898989;
+}
 /*features end*/
+
+/*contact start*/
+.contact{
+	background-color: #010101;
+	padding-top: 80px;
+	padding-bottom: 100px;
+}
+.yellow{
+	color: #fcdb00;
+}
+.ash{
+	color: #898989;
+}
+.contract_form{
+	margin-top: 30px;
+	margin-bottom: 60px;
+}
+.c_input{
+	width: 100%;
+	height: 50px;
+	color: #010101;
+}
+.c_input::placeholder {
+  color: #898989;
+  opacity: 1; /* Firefox */
+}
+
+.c_input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: #898989;
+}
+
+.c_input::-ms-input-placeholder { /* Microsoft Edge */
+ color: #898989;
+}
+.btn-contact{
+	font-weight: 700;
+	width: 100%;
+	height: 50px;
+	color: #010101;
+	background-color: #fcdb00;
+	text-transform: uppercase;
+}
+.btn-contact:hover{
+	background-color: white;
+}
+.social{}
+.social ul li a{
+	background-color: #fcdb00;
+	font-size: 35px;
+	color: #010101;
+	padding: 0 10px;
+	border-radius: 5px;
+	margin-right: 20px;
+	transition: .5s;
+}
+.social ul li a:hover{
+	background-color: white;
+}
+/*contact end*/
+
+/*footer start*/
+footer{
+	background-color: #010101;
+	padding-bottom: 100px;
+}
+.info{
+	color: white;
+}
+.c_footer{}
+.c_footer a{
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+/*footer end*/
